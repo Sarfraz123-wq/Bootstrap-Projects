@@ -1,0 +1,285 @@
+.imgs{
+    height: 93vh;
+    width: 100vw;
+}
+
+.progress{
+    margin-bottom: 30px !important;
+}
+#carouselExampleIndicators{
+    margin-bottom: 60px;
+}
+.about{
+    margin-bottom: 80px !important;
+}
+#aboutBtn{
+    background-color: rgb(45, 45, 219);
+    padding: 5px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    font-size: 45px !important;
+}
+.servicesss{
+    background-image: url('../Images/black\ fire.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding: 60px;
+    color: white;
+
+}
+.serviceCol{
+    text-align: center;
+    padding: 5px;   
+}
+.serviceCol:hover
+{
+    background: rgb(83, 83, 173);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.team{
+    margin-bottom: 50px;
+}
+#teamh1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+.card{
+    text-align: center;
+    
+}
+.card img{
+    filter: grayscale(100%)
+}
+.card img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+/* .card img:hover .imgIcon{
+    
+} */
+.card h4{
+    color: rgb(12, 116, 202);
+}
+.card h6{
+    color: rgb(211, 113, 2);
+}
+.imgIcon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+#freeDomain{
+    background-image: url('../Images/2.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 200px;
+    
+}
+#freeDomain h3{
+    color: #fff;
+    font-weight: normal;
+}
+#domainBtn{
+    margin-top: 20px;
+    background-color: rgb(72, 72, 201);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    padding: 5px;
+    
+}
+.pricePlan{
+    margin-top: 60px;
+    text-align: left;
+   
+}
+.priceBody{
+    margin: 0px;
+}
+
+.priceTitle{
+    background-color: rgb(131, 131, 250);
+    /* padding: 7px; */
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.pricebtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------Testinomial ------------------------------- */
+
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel {
+	/* width: 650px; */
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+.carousel .item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+    background: rgb(255, 0, 0);
+    text-shadow: none;
+	top: 4px;
+}
+.carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+/* ---------------------Contact Us ---------------------------------- */
+
+.contact{
+    margin-bottom: 50px;
+}
+#contacth1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(116, 97, 97);
+    font-size: 35px;
+}
+#footer{
+    height: 60px;
+    background-color: rgb(26, 21, 21);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 600px){
+    
+    #aboutus h1{
+        font-size: 22px;
+        
+    }
+    .row{
+        display: block !important;
+    }
+    #services .row {
+        display: block;
+        width: 400%;
+        
+    } 
+    #team .row, #priceplan .row {
+        margin-left: 25%;
+    }
+   .card{
+       margin-bottom: 10px;
+   }
+   #freeDomain h3{
+       font-size: 24px;
+   }
+}
