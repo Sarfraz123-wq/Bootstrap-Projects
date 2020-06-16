@@ -1,0 +1,162 @@
+header{
+    height: 100vh;
+    background: url(./Images/restaurant1.jpg) fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.transparent{
+    background: rgba(0,0,0,.5);
+}
+.navbar-toggler-icon{
+    border: 5px solid;
+    padding: 30px;
+    background-color: #F15025;
+}
+.nav-link, .navbar-brand{
+    color: #F15025 !important;
+    font-style: italic;
+}
+.navbar a{
+    font-size: 22px;
+}
+.navbar a:hover{
+    color: whitesmoke !important;
+}
+
+.banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.banner-underline{
+    width: 300px;
+    border: 3px solid #F15025;
+    margin: 0px auto 20px;
+
+}
+.banner-center a{
+    font-size: 30px;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.banner-center a:hover,.banner a:focus {
+    color: #F15025;
+    background-color: whitesmoke;
+}
+/* Skills Section */
+.title{
+    padding: 20px 0px;
+}
+.title-underline
+{
+    width: 150px;
+    border: 3px solid #F15025;
+    margin: 0px auto 20px;
+}
+#skills{
+    padding: 40px;
+    color: #2D3142;
+    margin-bottom: 10px;
+}
+
+#skills .fa{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+#skills a{
+    margin-bottom: 10px;
+    background-color: #F15025;
+    font-size: 20px;
+}
+#skills a:hover{
+   background-color: grey;
+}
+/* About Section */
+#about{
+    background-color: #2D3142;
+    color: #fff !important;
+}
+#about .pic{
+    height: 600px;
+    background: url(./Images/restaurant.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #203142;
+    
+}
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Contact Section */
+#contact{
+    padding: 40px;
+    background-color: whitesmoke;
+}
+#contact .form-control{
+    font-size: 20px;
+}
+#contact button{
+    background-color: #353531;
+    font-size: 24px;
+    color: #F15025;
+    margin-bottom: 20px;
+}
+#contact button:hover{
+    background-color: #ced0ce;
+}
+/* Footer Section */
+#footer{
+    padding: 40px;
+    color: whitesmoke;
+    background-color: #353531;
+}
+#footer .footer-icons{
+    font-size: 60px;
+    padding-top: 30px;
+}
+#footer .footer-icons a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+#footer .footer-icons a:hover{
+    color: #F15025;
+}
+#footer .copyrights{
+    padding-top: 40px 0;
+    color: #ced0ce;
+}
+
+/* Media Queries for font-size*/
+@media(max-width: 600px){
+    header h1{
+        
+        font-size: 52px !important;
+    }   
+    #footer h1{
+        font-size: 42px !important;
+    }   
+}
+
+@media(min-width: 601px) and (max-width: 1000px){
+    header h1{
+        
+        font-size: 62px !important;
+    }   
+    #footer h1{
+        font-size: 52px !important;
+    }   
+}
