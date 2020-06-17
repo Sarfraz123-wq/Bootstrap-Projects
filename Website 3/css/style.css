@@ -1,0 +1,184 @@
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    
+}
+ul li{
+    flex: 1 0 auto;
+    text-align: center;
+    list-style-type: none;
+    background-color: #ced0ce;
+}
+li a{
+    text-decoration: none !important;
+    display: block;
+    padding: 5px;
+    color: #3d3142;
+
+}
+
+li a:hover{
+    color: whitesmoke !important;
+    background-color: #f15025;
+    color: #2D3142;
+}
+
+header{
+    height: 100vh;
+    background-image: url('../Images/Building\ 2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-center{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(255, 0, 0);
+    padding: 75px;
+}
+.lead{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700 !Important;
+}
+.banner-underline{
+    width: 300px;
+    border: 3px solid #97adce;
+    margin: 00px auto 40px auto;
+}
+.white-btn, .navy-btn{
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 0 30px;
+    text-decoration: none !important;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.navy-btn{
+    border: 3px solid #353531;
+    background-color: #2D3142;
+}
+.white-btn{
+    border: 3px solid whitesmoke;
+}
+.white-btn:hover, .navy-btn:hover{
+    color: #eeff00;
+}
+#qualities{
+    background-color: #CDE0CD;
+    padding: 40px;
+}
+.title{
+    margin: 20px 0 40px 0;
+}
+.title-underline{
+    width: 150px;
+    border: 3px solid cadetblue;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#qualities .fa{
+    font-size: 100px;
+    color: #536f97;  
+    margin-bottom: 10px;  
+}
+#projects{
+    padding: 20px 0 0 0;
+    background-color: #2D3142;
+    color: whitesmoke;
+    
+}
+.left{
+    padding-left: 00px;
+}
+.right{
+    padding-right: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+article img{
+    margin-bottom: 20px;
+}
+/* Contact */
+
+#contact{
+    padding: 40px;
+    background-color: whitesmoke;
+}
+#contact .form-control{
+    font-size: 20px;
+}
+#contact button{
+    background-color: #353531;
+    font-size: 24px;
+    color: #f15025;
+    margin-bottom: 20px;
+   
+}
+#contact button:hover{
+    background-color: rgb(141, 76, 76);
+    color: #eeff00;
+}
+#footer{
+    padding: 40px;
+    color: whitesmoke;
+    background-color: #353531;
+}
+#footer h2{
+    margin-bottom: 20px;
+}
+#footer p{
+    font-size: 20px;
+}
+#footer .websites a{
+    text-decoration: none !important;
+    color: #f15025;
+    font-size: 20px;
+}
+#footer .websites a:hover{
+    color: #ced0ce;
+}
+#footer hr{
+    background-color: whitesmoke;
+}
+.lower-row{
+    margin-top:40px;
+}
+#footer .footer-icons{
+    font-size: 20px;
+}
+#footer .footer-icons a{
+    color: #909090;
+    text-decoration: none !important;
+}
+#footer .footer-icons a:hover{
+    color: whitesmoke;
+}
+#footer .copyrights h3{
+    color: #ced0ce;
+}
+/* Media Query */
+@media(max-width:600px)
+{
+    .white-btn, .navy-btn{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none !important;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+}
